@@ -9,7 +9,7 @@
 
 > git clone https://github.com/SamC4r/ReverseShellPY.git
 
-> Código fuente en python. 👌
+> Código fuente en python. :)
 > Explicación del código con comentarios.
 
 
