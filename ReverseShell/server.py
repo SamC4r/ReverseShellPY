@@ -26,7 +26,7 @@ def commandos(conn):
         
         if str.encode(cmd) == 'q':break
 
-        if len(str.encode(cmd)) > 0:# si se introduce un comando se envia al servidor quien lo evalua y ejecuta
+        if len(str.encode(cmd)) > 0:# si se introduce un comando se envia al cliente quien lo ejecuta y devuelve el resultado al servidor
             conn.send(str.encode(cmd))#Envia el comando
             respuesta = str(conn.recv(1024) )#Recibe la respuesta 
             print respuesta #Print de la respuesta
